@@ -83,9 +83,31 @@ console.log( "hola "  + usuario + " " + saludo )
 
 console.log( `hola ${usuario} ${saludo}` )
 
+// comparacion ---> siempre devuelven un booleano
+
+let n1 = 1
+let n2 = "1"
+
+console.log( n1 == n2 ) // ---> simple
+console.log( n1 === n2 ) // ---> estricta
+
+console.log( n1 != n2 ) // ---> simple
+console.log( n1 !== n2 ) // ---> estrictas
+
+console.log(n1 > n2)
+console.log(n1 < n2)
+console.log(n1 >= n2)
+console.log(n1 <= n2)
+
+let palabra = "Pepe"
+
+console.log( palabra === "pepe" )
 
 
-// comparacion
 
-// logicos 
+// logicos ---> && y || ---> ! not
+console.log("-----------")
 
+let j = true
+
+console.log( !j )
