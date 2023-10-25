@@ -2,7 +2,7 @@
 
 let a = 2;
 
-// DECLARADAS
+// DECLARADAS ---> nombre
 
 function f1() {
   console.log("doy un paso adelante");
@@ -64,3 +64,48 @@ console.log(nombre)
 cambiarNombre("maria");
 
 console.log(nombre);
+
+// let y const tiene SCOPE ---> LOCAL
+
+let sonido = "Guauuu"
+
+function ladrar (num1, num2){
+  
+  let sonido = "miau"
+  
+  return sonido
+
+}
+
+
+let ladrido = ladrar()
+console.log(ladrido)
+
+// EXPRESADAS COMUNES --> ANONIMAS
+
+const multiplicar = function (numero){
+  return numero * 10
+}
+
+let resultadoMulti = multiplicar(15)
+console.log(resultadoMulti)
+
+// EXPRESADAS TIPO FLECHA O ARROW FUNCTION --> ANONIMAS
+
+
+const dividir =  numero =>  numero / 2
+
+
+
+let resultadoDivision = dividir(10)
+console.log(resultadoDivision)
+
+// HOISTING 
+
+saltar()
+function saltar (){
+
+}
+
+
+
