@@ -64,3 +64,35 @@ console.log(res)
 // // si quiero que mi comparacion de true cuando el num es impar
 // console.log( num % 2 !== 0 )
 
+const tablaDeMultiplicar = ( numero )=>{
+
+    for(let i = 1; i <= 10 ; i++ ){
+        // console.log(`${numero} * ${i} = ${numero * i}`)
+        console.log(numero + " * " + i + " = " + (numero * i))
+    }
+
+    // let i = 15
+
+    // while( i <= 10 ){
+    //     console.log(numero + " * " + i + " = " + (numero * i))
+
+    //     i++
+    // }
+
+    // let i = 15
+
+    // do{
+    //     console.log(numero + " * " + i + " = " + (numero * i))
+
+    //     i++
+    // }while( i <= 10 )
+
+}
+
+tablaDeMultiplicar(5)
+
+// 5 
+
+// 5 * 1 = 5
+// 5 * 2 = 10
+// 5 * 10 = 50
